@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tamiya RC AI Assistant</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tamiya RC AI Assistant</h1>
+    <p>Setup, hop-ups, and guidance powered by TamiyaBase, TTPModels, and AI.</p>
+  </header>
+
+  <main>
+    <section id="config">
+      <h2>Chassis & setup</h2>
+
+      <label for="chassisSelect">Chassis / kit:</label>
+      <select id="chassisSelect">
+        <option value="">Select…</option>
+        <option value="58618">TT-02 Type S (58618)</option>
+        <option value="58568">TT-02B Neo Scorcher (58568)</option>
+      </select>
+
+      <label for="motor">Motor (e.g. 13.5T brushless):</label>
+      <input id="motor" type="text" placeholder="13.5T brushless">
+
+      <label for="track">Track type (e.g. indoor carpet, tarmac, loose dirt):</label>
+      <input id="track" type="text" placeholder="Indoor carpet">
+
+      <label for="budget">Budget (GBP):</label>
+      <input id="budget" type="number" min="0" step="1" placeholder="50">
+
+      <label for="symptoms">Optional: issues / symptoms (e.g. understeer, diff noise):</label>
+      <textarea id="symptoms" rows="3"></textarea>
+
+      <button id="generateBtn">Generate AI setup & hop-ups</button>
+    </section>
+
+    <section id="results">
+      <h2>Results</h2>
+      <div id="kitInfo"></div>
+      <div id="hopups"></div>
+      <div id="aiOutput"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Manuals and product pages are linked externally; this site does not host copyrighted content.
+    </p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/ai.js"></script>
+</body>
+</html>
+<!-- Main site entry point -->

@@ -1,0 +1,30 @@
+{
+  "chassis": "TT-02",
+  "hopups": [
+    {
+      "sku": "54501",
+      "name": "TT-02 Aluminum Propeller Shaft",
+      "price_gbp": 7.58,
+      "url": "https://www.ttpmodels.co.uk/tamiya-54501-tt-02-aluminium-propeller-shaft-18152-p.asp",
+      "in_stock": true,
+      "tags": ["drivetrain", "essential", "durability"]
+    },
+    {
+      "sku": "54500",
+      "name": "TT-02 Aluminium Steering Set",
+      "price_gbp": 23.86,
+      "url": "https://www.ttpmodels.co.uk/tamiya-54500-tt-02-aluminium-steering-set-18151-p.asp",
+      "in_stock": true,
+      "tags": ["steering", "precision", "handling"]
+    },
+    {
+      "sku": "54753",
+      "name": "TT-02 CVA Super Mini Shock Set",
+      "price_gbp": 23.86,
+      "url": "https://www.ttpmodels.co.uk/tamiya-54753-tt-02-cva-super-mini-shock-set-40000-p.asp",
+      "in_stock": false,
+      "tags": ["suspension", "performance"]
+    }
+  ]
+}
+{}

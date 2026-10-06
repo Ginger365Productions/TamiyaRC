@@ -1,0 +1,33 @@
+name: TTPModels stock sync
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync-ttpmodels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scrape TTPModels (placeholder)
+        run: |
+          node << 'EOF'
+          console.log("TODO: implement scraping of TTPModels and update data/ttpmodels/*.json");
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/ttpmodels/*.json || true
+          git commit -m "Update TTPModels stock" || true
+          git push || true
+# TTPModels sync workflow

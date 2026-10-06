@@ -1,0 +1,30 @@
+{
+  "58618": {
+    "model_number": "58618",
+    "name": "TT-02 Type S",
+    "chassis": "TT-02",
+    "release_year": 2015,
+    "manual_url": "https://www.tamiya.com/english/rc/rcmanual/58618.pdf",
+    "wheelbase_mm": 257,
+    "track_front_mm": 190,
+    "track_rear_mm": 190,
+    "known_issues": [
+      "Steering slop",
+      "Plastic prop shaft flex"
+    ]
+  },
+  "58568": {
+    "model_number": "58568",
+    "name": "TT-02B Neo Scorcher",
+    "chassis": "TT-02B",
+    "release_year": 2013,
+    "manual_url": "https://www.tamiya.com/english/rc/rcmanual/58568.pdf",
+    "wheelbase_mm": 266,
+    "track_front_mm": 190,
+    "track_rear_mm": 190,
+    "known_issues": [
+      "Rear dogbones popping out on big jumps"
+    ]
+  }
+}
+{}
